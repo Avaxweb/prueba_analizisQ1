@@ -1,0 +1,375 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Libre Baskerville', serif;
+	background: black;
+}
+/*fondo de registro y login*/
+#cer{
+	list-style: none;
+	font-size: 25px;
+	color: white;
+	margin-left: 93%;
+	
+
+}
+#cer:hover{
+	cursor: pointer;
+	color:cyan;
+}
+
+
+
+#fondo{
+	display: none;
+	height: 100%;
+	width: 100%;
+	background: -webkit-linear-gradient(-45deg, rgba(198, 139, 163  ) 0%,rgba(0,0,0,0.45) 100%); 
+    position: fixed;
+
+}
+form{
+	
+	width: 350px;
+	height: 450px;
+	background: -webkit-linear-gradient(60deg, rgba(0, 0, 0.13) 0%,rgba(198, 139, 163  ) 100%); 
+	margin: auto;
+	margin-top: 80px;
+	text-align: center;
+	border-radius: 70px 0px;
+	border-style: ridge;
+	border-color:white;
+
+}
+#sig{
+	list-style: none;
+}
+#img{
+	width: 100px;
+	background-color: black;
+	border-radius: 200px;
+}
+#lbl-registro{
+	font-size: 24px;
+	font-family: arial;
+	color:cyan;
+}
+#nombre{
+	background: -webkit-linear-gradient(-45deg, rgba(38, 170, 228) 0%,rgba(0,0,0,0.45) 100%); 
+	width: 90%;
+	height: 25px;
+	text-indent: 20px;
+	font-size: 16px;
+	position: relative;
+	top: 25px;
+}#nombre:hover{
+	background:white; 
+}
+
+#usuario{
+	background: -webkit-linear-gradient(-45deg, rgba(38, 170, 228) 0%,rgba(0,0,0,0.45) 100%); 
+	width: 90%;
+	height: 25px;
+	text-indent: 20px;
+	font-size: 16px;
+	position: relative;
+	top: 35px;
+}#usuario:hover{
+	background:white; 
+}
+
+#clave{
+	background: -webkit-linear-gradient(-45deg, rgba(38, 170, 228) 0%,rgba(0,0,0,0.45) 100%); 
+	width: 90%;
+	height: 25px;
+	text-indent: 20px;
+	font-size: 16px;
+	position: relative;
+	top: 45px;
+}#clave:hover{
+	background:white; 
+}
+
+#clavec{
+	background: -webkit-linear-gradient(-45deg, rgba(38, 170, 228) 0%,rgba(0,0,0,0.45) 100%); 
+	width: 90%;
+	height: 25px;
+	text-indent: 20px;
+	font-size: 16px;
+	position: relative;
+	top: 50px;
+}#clavec:hover{
+	background:white; 
+}
+
+#iniciar{
+	background: cyan;
+	width: 40%;
+	height: 25px;
+	font-size: 16px;
+	position: relative;
+	top: 80px;
+}#iniciar:hover{
+	background:#32EF2C;
+	color:black; 
+	cursor: pointer;
+}
+
+
+
+
+#fondoinicio{
+	display: none;
+	height: 100%;
+	width: 100%;
+	background: -webkit-linear-gradient(-45deg, rgba(198, 139, 163  ) 0%,rgba(0,0,0,0.45) 100%); 
+    position: fixed;
+
+}
+
+#cerrar{
+	list-style: none;
+	font-size: 25px;
+	color: white;
+	margin-left: 93%;
+	
+
+}
+#cerrar:hover{
+	cursor: pointer;
+	color:cyan;
+}
+
+
+
+#inicio{
+	
+	width: 350px;
+	height: 350px;
+	background: -webkit-linear-gradient(60deg, rgba(0, 0, 0.13) 0%,rgba(0,0,0,0.0) 100%); 
+	margin: auto;
+	margin-top: 80px;
+	text-align: center;
+	border-radius: 70px 15px;
+	border-style: ridge;
+	border-color:white;
+
+}
+#sig{
+	list-style: none;
+}
+#img{
+	width: 100px;
+	background-color: black;
+	border-radius: 200px;
+}
+#lbl-registro{
+	font-size: 24px;
+	font-family: arial;
+	color:cyan;
+}
+
+#usuario{
+	background: -webkit-linear-gradient(-45deg, rgba(38, 170, 228) 0%,rgba(0,0,0,0.45) 100%); 
+	width: 90%;
+	height: 25px;
+	text-indent: 20px;
+	font-size: 16px;
+	position: relative;
+	top: 30px;
+}#usuario:hover{
+	background:white; 
+}
+
+#clave{
+	background: -webkit-linear-gradient(-45deg, rgba(38, 170, 228) 0%,rgba(0,0,0,0.45) 100%); 
+	width: 90%;
+	height: 25px;
+	text-indent: 20px;
+	font-size: 16px;
+	position: relative;
+	top: 40px;
+}#clave:hover{
+	background:white; 
+}
+
+#iniciars{
+	background: cyan;
+	width: 40%;
+	height: 25px;
+	font-size: 16px;
+	position: relative;
+	top: 50px;
+}#iniciars:hover{
+	background:#32EF2C;
+	color:black; 
+	cursor: pointer;
+}
+
+
+
+/*fin registro y login*/
+
+
+.menu_bar{
+	display: none;
+}
+#imagen{
+	background-image: url(https://images.pexels.com/photos/813269/pexels-photo-813269.jpeg?auto=compress&cs=tinysrgb&h=350);
+	width: 100%;
+	height:100%;
+}
+#imagen nav , div{
+	display: inline-block;
+
+}
+header nav {
+	margin:40px 2px;
+
+}
+header nav ul{
+	overflow: hidden;
+	list-style: none;
+
+}
+header nav ul li{
+
+	float: left;
+}
+header nav ul li a{
+	color:#CF8FA8;
+	padding: 10px 9px;
+	display:block;
+	text-decoration: none;	
+}
+
+header nav ul li a:hover{
+	color:white;
+}
+
+
+
+
+
+
+header div {
+
+	margin:40px 2px;
+
+}
+header div ul{
+	overflow: hidden;
+	list-style: none;
+
+}
+header div ul li{
+
+	float: left;
+}
+header div ul li a{
+	color:#CF8FA8;
+	padding: 10px 9px;
+	display:block;
+	text-decoration: none;	
+}
+
+header div ul li a:hover{
+	color:white;
+}
+
+#nav1{
+	margin-left:2%;
+}
+#nav2{
+	margin-left: 33%;
+}
+
+h1{
+	color:#CF8FA8;
+	margin: 0px 460px;
+}h4{
+	color:#CF8FA8;
+	margin: 0px 460px;
+}
+img{
+	margin: 80px 33px;
+	display:inline-block;
+	width: 350px;
+	height: 500px;
+}
+
+
+
+
+
+
+/*inicio del responcive*/
+@media screen and (max-width:800px){
+	#imagen{
+		width: 100%;
+		height: 100%;
+	}
+
+	img{
+		width: 80%;
+	}
+
+	.menu_bar{
+		display: block;
+		width: 100%;
+		background:black;
+
+	}
+	.menu_bar .bt-menu{
+		display: block;
+		padding: 20px;
+		background:black;
+		color:white;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing: border-box;
+	}
+
+	.menu_bar span{
+		float: right;
+		font-size: 30px;
+	}
+
+	h1{
+		display: none;
+	}
+	h4{
+		display:none;
+	}
+    #nav2{
+    	display: none;
+    }
+    #lol{
+    	display: none;
+    }
+	header nav{
+		background: black;
+		width:100%;
+		height:100%;
+		left: -100%;
+		margin:0;
+		position:relative; 
+	}
+	header nav ul li a{
+		padding:20px 60px;
+		display: block;
+		float: left;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+	header nav ul li a:hover{
+	background:#AE31F5;
+    }
+
+}
+
+
+
+
